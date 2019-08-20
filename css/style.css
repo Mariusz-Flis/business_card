@@ -31,8 +31,8 @@ body {
 
 .person__img {
     margin-right: 20px;
-    width: 165px;
-    height: 205px;
+    width: 164px;
+    height: 193px;
 }
 
 .person__name {
@@ -65,5 +65,10 @@ body {
 .person__link {
     color: #E20613;
     text-decoration: none;
+
+}
+
+.person__contact{
+    margin-bottom: 0;
 
 }
