@@ -32,8 +32,8 @@ body {
 
 .person__img {
     margin-right: 20px;
-    width: 164px;
-    height: 193px;
+    width: 200%;
+    max-width: 164px;
 }
 
 .person__name {
