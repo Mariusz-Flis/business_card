@@ -28,10 +28,13 @@ body {
 .person {
     display: flex;
     align-items: flex-start;
+    display:grid;
+    grid-template-columns: 30% 1fr;
+    grid-column-gap: 8px;
 }
 
 .person__img {
-    margin-right: 20px;
+    margin:0 auto;
     width: 200%;
     max-width: 164px;
 }
@@ -87,4 +90,13 @@ body {
     align-items: center;
     justify-content: center;
     justify-content: space-around;
+}
+
+@media (max-width: 550px) {
+    .person {
+        grid-template-columns: 1fr;
+    }
+    /*body {
+        background: #dae5e8;
+    }*/
 }
